@@ -1,0 +1,19 @@
+package com.phoenix.spring.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.phoenix.spring.config.SpringConfig;
+
+public class SpringMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Creating 
+		ApplicationContext context=new AnnotationConfigApplicationContext(SpringConfig.class);
+		
+	
+	
+	}
+
+}

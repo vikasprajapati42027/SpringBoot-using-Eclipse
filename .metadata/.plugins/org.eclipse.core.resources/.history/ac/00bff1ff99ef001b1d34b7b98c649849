@@ -1,0 +1,5 @@
+package com.phoenix.spring.config;
+
+public class SpringConfig {
+
+}
